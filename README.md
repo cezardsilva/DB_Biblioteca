@@ -36,6 +36,9 @@ O **Cadastro de Livros** facilita o controle de acervo bibliográfico, permitind
 
 4. Inicie um servidor local (como XAMPP ou MAMP) e execute o projeto.
 
+Exemplo funciona:
+Abra [Mercados](https://www.cdsconsulting.com.br/mercado/) em um navegador.
+
 📌 Melhorias futuras
 
     📊 Relatórios de uso da biblioteca
