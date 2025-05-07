@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #363467 0%, rgba(30, 29, 39, 0.8) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.formulario {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 400px;
+    margin: 0 auto; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    border: none;
+}
+
+.leg {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px; 
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: rgb(7, 80, 9);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background: rgb(89, 175, 92);
+    transition: 0.5s;
+}
+
+.msg {
+    margin: 15px 0;
+    padding: 12px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.msg.sucesso {
+    background-color: #4CAF50;
+}
+
+.msg.erro {
+    background-color: #f44336;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;   
+    color: #fff;
+    width: 100%;
+    max-width: 600px; 
+}
+
+.menu a {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #53c044;
+    transition: 0.5s;
+}
